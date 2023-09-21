@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "jaspercon"
+version = "0.1.0"
+description = "RCON Client for Jasper"
+authors = ["Bryce Jenkins <bryce@brycejenkins.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rcon = "^2.4.4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+pytest-coverage = "^0.0"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
