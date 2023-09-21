@@ -1,5 +1,4 @@
-import socket
-import struct
+import rcon
 
 from jaspercon.utils import jlogging
 
